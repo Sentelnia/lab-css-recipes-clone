@@ -1,9 +1,68 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+html,
+body {
+font-family: "roboto";
   margin: 0;
+  padding: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+header {
+  background:url("../images/soup.jpg") center no-repeat;
+  background-size:cover;
+  height:100vh;
+  position: relative;
+
+}
+
+body{
+  font-size: 25px;
+}
+
+h1 {
+  color:white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.introduction {
+  text-align: center;  
+  padding: 50px 200px 10px;
+}
+
+.ingredients {
+  padding: 30px 200px 0px;
+}
+
+.directions {
+  padding: 40px 200px 50px;
+}
+
+h2 {
+  font-weight:500;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.imageTime {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.time {
+  padding-top: 30px;
+}
+
+hr {
+  height: 5px;
+  color: rgb(178, 175, 178);
+  background-color: rgb(178, 175, 178);
+  border: 0;
 }
